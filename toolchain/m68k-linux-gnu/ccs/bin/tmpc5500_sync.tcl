@@ -1,0 +1,1 @@
+addreg idcode  

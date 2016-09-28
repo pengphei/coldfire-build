@@ -1,0 +1,15 @@
+addreg idcode  
+addreg csc
+addreg pcr
+addreg dc1
+addreg dc2
+addreg wt
+addreg dtc
+addreg dtsa1
+addreg dtsa2
+addreg dtea1
+addreg dtea2
+addreg bwc1
+addreg bwc2
+addreg bwa1
+addreg bwa2

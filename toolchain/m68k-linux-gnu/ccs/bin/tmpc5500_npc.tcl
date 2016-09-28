@@ -1,0 +1,2 @@
+addreg idcode  
+addreg pcr  
