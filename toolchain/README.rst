@@ -9,5 +9,5 @@ Introduction
 
 It takes me very long time searching the gcc toolchain for coldfire(m68k). Now we have it.
 
-* ref link: http://www.freescale.com/webapp/sps/site/overview.jsp?code=CW_BSP_COLDFIRE
+* ref link: https://sourcery.mentor.com/public/gnu_toolchain/m68k-linux-gnu/freescale-coldfire-2011.09-22-m68k-linux-gnu-i686-pc-linux-gnu.tar.bz2
 
