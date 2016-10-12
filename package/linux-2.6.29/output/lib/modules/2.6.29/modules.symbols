@@ -1,0 +1,5 @@
+# Aliases for symbols, used by symbol_request().
+alias symbol:video_output_register output
+alias symbol:usb_gadget_register_driver fsl_usb2_udc
+alias symbol:video_output_unregister output
+alias symbol:usb_gadget_unregister_driver fsl_usb2_udc

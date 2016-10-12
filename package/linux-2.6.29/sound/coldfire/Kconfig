@@ -1,0 +1,14 @@
+
+menu "ALSA for Coldfire"
+
+config SND_COLDFIRE
+	bool "Coldfire sound devices"
+	depends on SND
+	select SND_PCM
+	select SSIAUDIO_USE_EDMA
+	default y
+	help
+	  Support for sound devices specific to Coldfire architectures.
+
+endmenu
+

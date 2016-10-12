@@ -1,0 +1,14 @@
+obj-$(CONFIG_DMA_ENGINE) += dmaengine.o
+obj-$(CONFIG_NET_DMA) += iovlock.o
+obj-$(CONFIG_DMATEST) += dmatest.o
+obj-$(CONFIG_INTEL_IOATDMA) += ioatdma.o
+ioatdma-objs := ioat.o ioat_dma.o ioat_dca.o
+obj-$(CONFIG_INTEL_IOP_ADMA) += iop-adma.o
+obj-$(CONFIG_FSL_DMA) += fsldma.o
+obj-$(CONFIG_COLDFIRE_EDMA) += mcf_edma.o
+obj-$(CONFIG_COLDFIRE_EDMA_TEST) += mcf_edma_test.o
+obj-$(CONFIG_MV_XOR) += mv_xor.o
+obj-$(CONFIG_DW_DMAC) += dw_dmac.o
+obj-$(CONFIG_MX3_IPU) += ipu/
+obj-$(CONFIG_MCD_DMA) += mcddma.o
+mcddma-objs := MCD_dmaApi.o MCD_tasks.o MCD_tasksInit.o
