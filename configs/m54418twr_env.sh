@@ -68,10 +68,10 @@ function build_kernel()
 
     cp ${BUILD_LINUX_PATH}/arch/${BUILD_ARCH}/boot/uImage ${BUILD_TRUNK_OUT}
     
-    rm -rf ${BUILD_TRUNK_OUT/modules
+    rm -rf ${BUILD_TRUNK_OUT}/modules
     cp -r ${BUILD_LINUX_PATH}/output/lib/modules ${BUILD_TRUNK_OUT}
 
     cd -
-}	
+}
 
-coldfire_prepare
+build_prepare
